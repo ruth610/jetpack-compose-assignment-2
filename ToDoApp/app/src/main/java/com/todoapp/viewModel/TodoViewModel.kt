@@ -35,8 +35,6 @@ class TodoViewModel(
             }
         }
     }
-    fun groupTodosByUser(todos: List<TodoEntity>): Map<Int, List<TodoEntity>> {
-        return todos.groupBy { it.userId }
-    }
+
 
 }
